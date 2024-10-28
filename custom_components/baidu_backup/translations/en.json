@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Baidu Cloud Backup",
+        "description": "Do you want to set up Baidu Cloud backup?"
+      },
+      "auth": {
+        "title": "Baidu Cloud Authorization",
+        "description": "Please visit the following link to get the authorization code:\n{auth_url}\n\nAfter obtaining it, please enter the authorization code:",
+        "data": {
+          "token": "Authorization code"
+        }
+      }
+    },
+    "error": {
+      "init_failed": "Initialization failed",
+      "token_failed": "Authorization code verification failed",
+      "invalid_token": "Invalid authorization code",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "single_instance_allowed": "Only one Baidu Cloud backup instance is allowed to be configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Baidu Cloud Backup Configuration",
+        "description": "Please choose the action you want to perform"
+      },
+      "auth": {
+        "title": "Baidu Cloud Authorization",
+        "description": "Please visit the following link to get a new authorization code:\n{auth_url}\n\nAfter obtaining it, please enter the authorization code:",
+        "data": {
+          "token": "Authorization code"
+        }
+      }
+    },
+    "error": {
+      "token_failed": "Authorization code verification failed",
+      "invalid_token": "Invalid authorization code",
+      "unknown": "Unknown error"
+    }
+  }
+}

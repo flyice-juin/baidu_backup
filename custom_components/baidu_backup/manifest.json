@@ -1,0 +1,11 @@
+{
+  "domain": "baidu_backup",
+  "name": "百度云备份",
+  "documentation": "",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "version": "1.0.0",
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

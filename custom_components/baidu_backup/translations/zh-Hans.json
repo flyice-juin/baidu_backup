@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "百度云备份",
+        "description": "是否要设置百度云备份？"
+      },
+      "auth": {
+        "title": "百度云授权",
+        "description": "请访问以下链接获取授权码：\n{auth_url}\n\n获取后请输入授权码：",
+        "data": {
+          "token": "授权码"
+        }
+      }
+    },
+    "error": {
+      "init_failed": "初始化失败",
+      "install_failed": "安装 bypy 失败",
+      "token_failed": "授权码验证失败",
+      "invalid_token": "无效的授权码",
+      "unknown": "未知错误"
+    },
+    "abort": {
+      "single_instance_allowed": "仅允许配置一个百度云备份实例"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "百度云备份配置",
+        "description": "请选择要执行的操作"
+      },
+      "auth": {
+        "title": "百度云授权",
+        "description": "请访问以下链接获取新的授权码：\n{auth_url}\n\n获取后请输入授权码：",
+        "data": {
+          "token": "授权码"
+        }
+      }
+    },
+    "error": {
+      "token_failed": "授权码验证失败",
+      "invalid_token": "无效的授权码",
+      "unknown": "未知错误"
+    }
+  }
+}
